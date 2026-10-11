@@ -1,0 +1,20 @@
+.CODE
+
+NtDirectProtectVirtualMemory PROC
+    mov r10, rcx
+    mov eax, 50h
+    syscall
+    ret
+NtDirectProtectVirtualMemory ENDP
+
+END
+.CODE
+
+NtDirectProtectVirtualMemory PROC
+    mov r10, rcx
+    mov eax, 50h
+    syscall
+    ret
+NtDirectProtectVirtualMemory ENDP
+
+END
